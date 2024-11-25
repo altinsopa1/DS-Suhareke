@@ -1,0 +1,10 @@
+.text { color:blue; } 
+
+@font-face { font-family: body-text;
+src:url(./fonts/PTSerif-BoldItalic.ttf)}
+.text-style {font-family:body-text;
+font-size:106px;
+font-weight: 400;}
+
+.material-icons{ color:red; 
+    font-size: 500px !important;}
