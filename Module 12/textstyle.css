@@ -8,3 +8,10 @@ font-weight: 400;}
 
 .material-icons{ color:red; 
     font-size: 500px !important;}
+    .material-icons {color:red;
+    .font-size:570px !important;}
+a { color:pink;}
+a:link{ text-decoration:dotted;}
+a:visited{ color:blueviolet;}
+a:hover{ color:aqua;}
+a:active{color: black;}
