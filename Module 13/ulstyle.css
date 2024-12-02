@@ -2,4 +2,18 @@
  li {border-bottom: 1px solid 
     red;}
     .olmodule13{list-style-type: 1;}
-    .table{border: 1px solid;}
+    .tableone tbody > tr:nth-child(odd) {background-color: gray;}
+    .tableone{
+      border-collapse: collapse;
+    }
+    td,th{
+      border: 2px solid;
+    }
+    div{ 
+      width:600px;
+      height:100px;
+      background-color: #efefef;
+      overflow-x: auto;
+      overflow-y: auto;
+    }
+    div tbody> tr:nth-child(1) {background-color:lightblue;}
