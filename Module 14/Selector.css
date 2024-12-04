@@ -1,0 +1,21 @@
+article >p:first-child {background-color: black;
+    color:blue;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+article div{background-color: black;
+     color:red;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+article+p:first-of-type{
+    background-color: black;
+    color:green;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+article+p+p{background-color: black;
+    color: yellow;
+font-family: Georgia, 'Times New Roman', Times, serif;}
+input:focus{background-color: gray;
+    border: 1px green;}
+    p::first-letter{font-weight: bold;}
+    p::first-line{font-style: italic;}
+    p::after{content: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfQrYqMZwp-A3NHADGykBgWzdTNH8d7cYDiw&s);}
+    p::before{font}
+    p::selection{}
+    p{opacity: o.1;}
