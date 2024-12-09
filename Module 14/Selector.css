@@ -15,7 +15,6 @@ input:focus{background-color: gray;
     border: 1px green;}
     p::first-letter{font-weight: bold;}
     p::first-line{font-style: italic;}
-    p::after{content: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfQrYqMZwp-A3NHADGykBgWzdTNH8d7cYDiw&s);}
     p::before{font}
     p::selection{}
     p{opacity: o.1;}
