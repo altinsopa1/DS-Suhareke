@@ -1,0 +1,21 @@
+
+ul {
+    list-style-type: none;
+     margin:0;
+      padding:0;
+       background-color:#333;
+       overflow: hidden;
+     display: inline-block;
+    height: 100%;
+width:300px;}
+ul li a{border:2px solid black;
+     display: block; 
+    padding:10px; 
+    text-decoration: none;
+     color:white;
+      background-color: grey;}
+
+ul li a:hover:not(.active){background-color:#111;} 
+.active{
+    background-color: green;
+}
