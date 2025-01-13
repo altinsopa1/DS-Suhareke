@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <style>
+        .root{
+            --primary-color:green;
+            --secondary-color:blue;
+            --spacing-inside-menu-items:20px;
+    
+        }
+        .dropdown{
+            position: relative;
+        }
+        .dropdown-content{background-color: var(--primary-color);
+            display: none;
+            padding: 5px 10px;
+            border: 1px solid #ddd;
+            box-shadow: ;
+            -webkit-box-shadow:-1px 5px 84px -38px rgba(0,0,0,0.84);
+            -moz-box-shadow:-1px 5px 84px -38px rgba(0,0,0,0.84);
+            box-shadow: -1px 5px 84px -38px rgba(0,0,0,0.84);
+            left:0;
+            top:24;
+        }
+        .dropdown a:hover + .dropdown-contect{
+            display:inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="dropdown">
+        <a href="#">Hover over me!</a>
+        <div class="dropdown-content">
+            <p>Hello world!</p>
+        </div>
+    </div>
+    
+</body>
+</html>
