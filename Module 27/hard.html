@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>hard</title>
+    <script>
+
+        function Book (title, author, pages){
+            this.title=title;
+            this.author=author;
+            this.pages=pages;
+            this.printSummary = function () {
+                console.log(`${this.title} by ${this.author}has ${this.pages}`);
+            };
+
+        
+            }
+        const myBook = new Book('The Great Gatsby','F. Scoot Fitzgerald', 218);
+        myBook.printSummary();
+
+
+        function Movie (title, author, number){
+            this.title=title;
+            this.author=author;
+            this.number=number;
+            this.printSummary = function (){
+                console.log(`${this.title} by ${this.author}has ${this.number}`);
+            };
+        }
+        const myBookk = new Book('Fast and Fuorious','Jason Statham', 9 );
+        myBookk.printSummary();
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
