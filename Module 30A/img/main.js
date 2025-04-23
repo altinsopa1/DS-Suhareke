@@ -46,7 +46,12 @@ function showCurrentTime(){
     }
 function uptadeClock (){
     var wakeUpTimeSelector = document.getElementById('wakeUpTimeSelector');
-    var wakeuptime=wakeUpTimeSelector.value;
-    var dsTimeSelector
-
+        wakeuptime=wakeUpTimeSelector.value;
+    var dsTimeSelector = document.getElementById('sleepTimeSelector');
+    dstime = sleepTimeSelector.value;
+    var sleepTimeSelector=document.getElementById('sleepTimeSelector');
+    sleepTime = sleepTimeSelector.value;
+    
 }
+vsr saveButton = document.getElementById("saveButton");
+saveButton.addEventListener("click",uptadeClock);
