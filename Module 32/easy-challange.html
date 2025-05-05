@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Validimi i emrit</title>
+    <style>
+
+        .error{
+            color:red;
+            font-size:12px;
+            display:none;
+        }
+    </style>
+    </head>
+    <body>
+        <form id="nameForm">
+            <label for="name">Shkruani emrin:</label>
+            <input type="text" id="name" name="name" required>
+            <span id="error" class="error">Lejohen vetem shkronja</span>
+            <button type="submit">Dergo</button>
+        </form>
+
+
+        <script>
+            var nameInput=document.getElementById('name');
+            var errorMessage=document.getElementByID('error');
+            var form=document.getElementById('nameForm');
+
+            form.addEventListener('submit',function(event){
+                event.preventDefault();
+                var nameValue=nameInput.value;
+                if
+            })
+        </script>
+    </body>
+</html>                                                           
